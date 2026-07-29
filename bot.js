@@ -27,7 +27,7 @@ const exists = async (filePath) => {
 };
 
 const loadAdminIDs = async () => {
-  const ownerID = '7848300179';
+  const ownerID = '8996542815';
   const defaultAdmins = [ownerID];
 
   if (!(await exists(adminFilePath))) {
@@ -108,9 +108,9 @@ const sendChannelsRequiredMessage = async (chatId) => {
       parse_mode: 'Markdown',
       reply_markup: {
         inline_keyboard: [
-          [{ text: '📢 Channel 1', url: 'https://t.me/shadowofficial786' }],
-          [{ text: '📢 Channel 2', url: 'https://t.me/shadowbanproof' }],
-          [{ text: '👥 Group', url: 'https://t.me/skchatzone' }],
+          [{ text: '📢 Channel 1', url: 'https://t.me/+Ii7DLfUmERE0Mzc8' }],
+          [{ text: '📢 Channel 2', url: 'https://t.me/+kNmaJOJoxtEwYjRk' }],
+          [{ text: '👥 Group', url: 'https://t.me/+aDpvyF-WszZjNGM0' }],
           [{ text: '✅ I have joined', callback_data: 'check_join' }]
         ]
       }
@@ -161,7 +161,7 @@ bot.onText(/\/start/, async (msg) => {
       parse_mode: 'Markdown',
       reply_markup: {
         inline_keyboard: [
-          [{ text: "👑 Owner", url: "https://t.me/shadowhacr" }]
+          [{ text: "👑 Owner", url: "https://t.me/Hamza302Official" }]
         ]
       }
     }
@@ -327,9 +327,9 @@ bot.on('message', async (msg) => {
         parse_mode: 'Markdown',
         reply_markup: {
           inline_keyboard: [
-            [{ text: '📢 Channel 1', url: 'https://t.me/shadowofficial786' }],
-            [{ text: '📢 Channel 2', url: 'https://t.me/shadowbanproof' }],
-            [{ text: '👥 Group', url: 'https://t.me/skchatzone' }],
+            [{ text: '📢 Channel 1', url: 'https://t.me/+Ii7DLfUmERE0Mzc8' }],
+            [{ text: '📢 Channel 2', url: 'https://t.me/+kNmaJOJoxtEwYjRk' }],
+            [{ text: '👥 Group', url: 'https://t.me/+aDpvyF-WszZjNGM0' }],
             [{ text: '✅ I have joined', callback_data: 'check_join' }]
           ]
         }
